@@ -1,0 +1,98 @@
+html{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    background-color: #030303;
+}
+
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #eeeeee;
+
+    padding: 40px;
+    padding-bottom: 0;
+
+    border-radius: 40px;
+}
+
+.main{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    font-size: 2em;
+    background-color: #dddddd;
+
+    padding: 40px;
+    border-radius: 40px;   
+}
+
+input{
+    height: 40px;
+    border-radius: 12px;
+    border: 0;
+
+    font-size: 1.2rem;
+}
+
+small{
+    font-size: 1rem;
+}
+
+button{
+    font-size: 1.5em;
+    border-radius: 40px;
+    border: #030303 1px solid;
+    padding: 1em;
+}
+
+#pesquisa{
+    margin-top: 10px;
+    margin-bottom: 30px;
+
+    background-color: #006400;
+    color: aliceblue;
+}
+
+#limpa{
+    color: darkgreen;
+    border-color: #006400;
+    margin-bottom: 20px;
+}
+
+.info{
+    display: none;
+}
+
+.info label{
+    display: flex;
+    align-items: center;
+    justify-content:center;
+}
+
+label input{
+    padding-left: 1em;
+    width: 100%;
+}
+
+.info label input{
+    margin-left: 10px;
+}
+
+#active{
+    display: inline;
+}

@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta CEP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <form action="#" method="get">
+            <div class="main">
+                <label>CEP: <br><input type="text" id="cep" placeholder="Digite Aqui"><br><small>Ex: 123456-123</small></label><br>
+                <button onclick="pesquisar()" id="pesquisa">Pesquisar</button>
+                <button onclick="limpar()" id="limpa">Limpar</button>
+            </div>
+            <div class="info">
+                <label>Rua: <input readonly type="text" id="logradouro"></label><br>
+                <label>Bairro: <input readonly type="text" id="bairro"></label><br>
+                <label>Cidade: <input readonly type="text" id="localidade"></label><br>
+                <label>UF: <input readonly type="text" id="uf"></label><br>
+            </div>
+            
+        </form>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
