@@ -17,10 +17,14 @@ function pesquisar (){
         cache: 'default'
     }
     fetch(`https://viacep.com.br/ws/${search}/json/`, options)
-    .then((response)=>{response.json().then((data)=> showData(data))})
-    .catch((e)=> alert("CEP Inválido!"))
-
-    mostraResto()
+    .then((response)=>{response.json().then((data)=> {
+        showData(data)
+        mostraResto()}
+        )})
+    .catch((e)=> {
+        limpar()
+        alert("CEP Inválido!")}
+        )
 }
 
 function mostraResto(){
