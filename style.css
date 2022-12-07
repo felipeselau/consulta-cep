@@ -78,6 +78,7 @@ button{
     color: darkgreen;
     border-color: #006400;
     margin-bottom: 20px;
+    width: 100%;
 }
 
 .info{
