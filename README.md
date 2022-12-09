@@ -40,4 +40,4 @@ Using the property [Fetch](https://developer.mozilla.org/pt-BR/docs/Web/API/Fetc
 
 ---
 
-#### You can visit the app [here 👈](https://wwfehh.github.io/consulta-cep/)
+#### You can visit the app [here 👈](https://felipeselau.github.io/consulta-cep/)
